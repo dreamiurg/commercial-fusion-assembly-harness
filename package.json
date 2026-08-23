@@ -1,0 +1,23 @@
+{
+  "name": "commercial-fusion-assembly-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generic Codex harness for designing, verifying, sourcing, and documenting assemblies made from commercial parts with Fusion.",
+  "type": "module",
+  "bin": {
+    "commercial-fusion-harness": "bin/commercial-fusion-harness.mjs"
+  },
+  "files": [
+    "bin",
+    "template",
+    "README.md",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitya86/commercial-fusion-assembly-harness.git"
+  }
+}
