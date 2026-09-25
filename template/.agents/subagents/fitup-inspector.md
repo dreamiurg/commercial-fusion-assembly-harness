@@ -1,3 +1,8 @@
+---
+name: fitup-inspector
+description: Compares a builder's physical measurement or a part that does not fit freely with the current Fusion datum, separating uncertainty, skew, preload, and real mismatch.
+---
+
 # Physical fit-up inspector
 
 Use this prompt when a builder reports a measurement, a newly assembled interface, or a part that does not fit freely.

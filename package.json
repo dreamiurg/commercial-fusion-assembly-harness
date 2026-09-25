@@ -2,7 +2,7 @@
   "name": "commercial-fusion-assembly-harness",
   "version": "0.1.0",
   "private": true,
-  "description": "Generic Codex harness for designing, verifying, sourcing, and documenting assemblies made from commercial parts with Fusion.",
+  "description": "Generic Codex and Claude Code harness for designing, verifying, sourcing, and documenting assemblies made from commercial parts with Fusion.",
   "type": "module",
   "bin": {
     "commercial-fusion-harness": "bin/commercial-fusion-harness.mjs"

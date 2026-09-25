@@ -1,3 +1,8 @@
+---
+name: parts-availability-researcher
+description: Researches current links, stock, lead time, and regional sourcing for exact commercial parts, with dated evidence.
+---
+
 # Parts-availability researcher
 
 Use this prompt when current links, stock, lead time, regional sourcing, or a commercial-versus-specialist judgment is required.

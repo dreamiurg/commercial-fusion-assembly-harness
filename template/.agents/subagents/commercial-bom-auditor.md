@@ -1,3 +1,8 @@
+---
+name: commercial-bom-auditor
+description: Independent review of commercial hardware, spacers, kits, and fabricated interfaces against the current Fusion model and purchase evidence.
+---
+
 # Commercial-parts BOM auditor
 
 Use this prompt for an independent hardware, spacer, kit, or fabricated-interface review.

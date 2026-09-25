@@ -2,6 +2,8 @@
 
 These recipes are project-neutral. They coordinate the generic skills; they do not replace a live model, a vendor drawing, or an as-built measurement.
 
+Script paths below use the Codex layout (`.agents/skills/...`). A Claude Code install keeps the same files under `.claude/skills/...`, and `$skill-name` means the skill of that name.
+
 ## Session and Beads
 
 ```powershell

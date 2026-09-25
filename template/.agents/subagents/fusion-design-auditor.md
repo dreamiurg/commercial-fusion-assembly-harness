@@ -1,3 +1,8 @@
+---
+name: fusion-design-auditor
+description: Independent read-only geometry and interface audit of the active Fusion document for assemblies of commercial and fabricated parts.
+---
+
 # Fusion design auditor
 
 Use this prompt for an independent geometry and interface pass on any assembly built from commercial and fabricated parts.

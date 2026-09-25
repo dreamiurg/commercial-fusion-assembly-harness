@@ -1,3 +1,8 @@
+---
+name: custom-vs-standard-reviewer
+description: Compares buying a standard part, modifying one, redesigning around another, or fabricating a custom part for a mismatch or sourcing problem.
+---
+
 # Custom-versus-standard reviewer
 
 Use this prompt when a mismatch or sourcing problem can be solved by buying a standard part, modifying one, redesigning around another, or fabricating a part.

@@ -1,3 +1,8 @@
+---
+name: assembly-manual-reviewer
+description: Independent QA pass on an annotated PDF or mechanical assembly manual, covering the comment inventory, source mapping, and full-page render review.
+---
+
 # Assembly-manual QA reviewer
 
 Use this prompt for an independent annotated-PDF or mechanical assembly-manual pass.
