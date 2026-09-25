@@ -22,7 +22,7 @@ npx --yes --package="github:OWNER/commercial-fusion-assembly-harness#v0.1.0" -- 
 
 ## Contents
 
-- `template/.agents/skills/` - Fusion design, physical fit-up, BOM, availability, custom-versus-standard, and assembly-manual workflows.
+- `template/.agents/skills/` - Fusion design, printed-part authoring, physical fit-up, BOM, availability, custom-versus-standard, and assembly-manual workflows.
 - `template/.agents/subagents/` - independent audit/research prompts (installed as `.claude/agents/` for Claude Code).
 - `template/.agents/commands/` - repeatable orchestration recipes.
 - `bin/commercial-fusion-harness.mjs` - dependency-free installer/updater.

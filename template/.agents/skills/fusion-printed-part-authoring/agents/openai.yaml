@@ -1,0 +1,6 @@
+interface:
+  display_name: "Printed-part authoring"
+  short_description: "Script printed parts that fit commercial ones"
+  default_prompt: "Use $fusion-printed-part-authoring to model this printed part as a repository-kept Fusion script with reference envelopes, interference and assembly-path checks, one STL per body, and print-orientation notes."
+policy:
+  allow_implicit_invocation: true

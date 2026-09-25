@@ -4,6 +4,7 @@
   "scope": "Generic mechanical assemblies built from commercially available parts and Fusion models",
   "skills": [
     "skills/fusion-mechanical-design",
+    "skills/fusion-printed-part-authoring",
     "skills/physical-fitup",
     "skills/commercial-parts-bom",
     "skills/parts-availability",
