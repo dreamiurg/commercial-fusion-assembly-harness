@@ -52,10 +52,10 @@ Preserve the annotated source. Map comments to page and rectangle before editing
 
 ## PDF authoring and rendering
 
-Immediately before the first PDF create/edit command in a turn, run the marker exactly once:
+If your runtime's `pdf` skill provides an artifact marker, run it exactly once immediately before the first PDF create/edit command in a turn. For the Codex `pdf` plugin it lives under `$CODEX_HOME/plugins/cache/<publisher>/pdf/<version>/skills/pdf/container_tools/`; resolve the installed path rather than copying a machine-specific one:
 
 ```powershell
-node 'C:\Users\mitya\.codex\plugins\cache\openai-primary-runtime\pdf\26.819.11345\skills\pdf\container_tools\mark_artifact_operation_started.mjs' --operation-kind edit --expected-output-count 1 --output-format pdf
+node '<pdf-skill-dir>\container_tools\mark_artifact_operation_started.mjs' --operation-kind edit --expected-output-count 1 --output-format pdf
 ```
 
 Render the project source with configurable paths:
