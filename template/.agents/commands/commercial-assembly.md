@@ -38,7 +38,7 @@ Record entity paths, axis direction, release/version, calculation, and uncertain
   -Label 'inside interface gap' -MeasuredMm 740 -ModelMm 738.32 -ToleranceMm 0.50
 ```
 
-The script reports the signed delta and a stop/recheck recommendation. Use multiple physical points and `$physical-fitup` when the joint may be skewed; never use bolts to bend parts into agreement.
+The script reports the signed delta and a stop/recheck recommendation; on macOS or Linux run it with `pwsh -File`. Use multiple physical points and `$physical-fitup` when the joint may be skewed; never use bolts to bend parts into agreement.
 
 ## BOM and sourcing
 
@@ -66,6 +66,13 @@ Render the project source with configurable paths:
 & '.agents\skills\assembly-manual-qa\scripts\render_manual.ps1' `
   -HtmlPath 'tmp\pdfs\assembly_manual.html' `
   -OutputPdf 'output\pdf\Assembly_Manual_ASSEMBLY-YYYY-MM-DD.pdf'
+```
+
+On macOS or Linux, the POSIX script takes the same paths positionally and uses Chrome, Edge, or Chromium (`CHROME_PATH` overrides the choice):
+
+```sh
+sh .agents/skills/assembly-manual-qa/scripts/render_manual.sh \
+  tmp/pdfs/assembly_manual.html output/pdf/Assembly_Manual_ASSEMBLY-YYYY-MM-DD.pdf
 ```
 
 Render all pages with Poppler (`pdftoppm`) or the project's equivalent helper. Inspect a contact sheet and every changed page at full resolution. Confirm page count, footer/revision, no clipping/overlap, and no unintended `/FreeText` annotations in a clean PDF.

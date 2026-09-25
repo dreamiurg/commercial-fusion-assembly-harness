@@ -28,4 +28,4 @@ Use this skill with the general `pdf` skill when a build manual, annotated revie
 - Assembly order must be physically executable: no fastener, bearing, cable, or captured component may be installed through an impossible obstruction.
 - If two steps are truly identical, use a clear mirror/repeat note; if handedness or access differs, write the distinct step.
 
-Read [manual-rules.md](references/manual-rules.md) for the reusable content and review checklist. The helper scripts accept project-relative paths and do not encode a particular machine.
+Read [manual-rules.md](references/manual-rules.md) for the reusable content and review checklist. The helper scripts accept project-relative paths and do not encode a particular machine; `scripts/render_manual.ps1` (Windows, Edge) and `scripts/render_manual.sh` (macOS/Linux, Chrome/Edge/Chromium) are equivalent.
