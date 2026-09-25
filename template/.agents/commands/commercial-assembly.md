@@ -17,7 +17,7 @@ Create an issue before changing a CAD release, BOM, or delivered artifact. For r
 
 ## Fusion read-only audit
 
-Use `mcp__fusion__fusion_mcp_read` with `queryType="document", operation="open"` first. Then use `mcp__fusion__fusion_mcp_execute` with a Python `run(_context)` script to inspect occurrence/body names, bounding boxes, planar faces, cylinders, hole axes, and interference/clearance. Convert Fusion centimeter API units to millimeters with `* 10`. Do not call Fusion save unless explicitly authorized.
+Use `fusion_mcp_read` with `queryType="document", operation="open"` first. Then use `fusion_mcp_execute` with a Python `run(_context)` script to inspect occurrence/body names, bounding boxes, planar faces, cylinders, hole axes, and interference/clearance. Convert Fusion centimeter API units to millimeters with `* 10`. Do not call Fusion save unless explicitly authorized. Tool names are given without the client prefix, which depends on the Fusion MCP server name in your client (for example `mcp__fusion__fusion_mcp_read` or `mcp__Autodesk_Fusion__fusion_mcp_read`).
 
 For an opposing planar interface, measure the two functional faces rather than relying only on occurrence bounding boxes:
 

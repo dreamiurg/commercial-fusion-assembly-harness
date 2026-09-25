@@ -10,8 +10,8 @@ Use the active Fusion document as the geometry authority for the question at han
 ## Workflow
 
 1. Define the decision: the use case, loads and constraints, purchased-part assumptions, fabricated parts, and the measurement or interface that must be trusted.
-2. Read the active document with `mcp__fusion__fusion_mcp_read` (`document`, `operation=open`). Record the document name, active/modified state, and version or source identifier when exposed.
-3. Use `mcp__fusion__fusion_mcp_execute` with a read-only Python script. Do not save or alter the Fusion document unless the user explicitly authorizes that action.
+2. Read the active document with the Fusion MCP `fusion_mcp_read` tool (`document`, `operation=open`); the client adds a server prefix such as `mcp__fusion__` or `mcp__Autodesk_Fusion__`. Record the document name, active/modified state, and version or source identifier when exposed.
+3. Use `fusion_mcp_execute` with a read-only Python script that defines `run(context)`. Do not save or alter the Fusion document unless the user explicitly authorizes that action.
 4. Identify exact occurrence/component/body names before measuring. Report entity paths, not naked numbers.
 5. Measure functional datums directly: planar mating faces, hole centers/axes, bore axes, rail centers, and travel limits. Use bounding boxes only for envelopes and sanity checks.
 6. Convert Fusion's centimeter API units to millimeters explicitly (`value * 10`) and state the axis, faces, or axes used.
