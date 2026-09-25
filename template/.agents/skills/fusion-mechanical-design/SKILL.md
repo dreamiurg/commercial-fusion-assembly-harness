@@ -34,4 +34,4 @@ Use the active Fusion document as the geometry authority for the question at han
 - Preserve the provenance of every number: live Fusion measurement, ordered-part drawing, as-built measurement, or historical release.
 - Do not call an assembly fabrication-ready without checking interfaces, handed parts, hole counts/axes, access for tools, no staging geometry, and the relevant clearance/interference invariant.
 
-Read [measurement-patterns.md](references/measurement-patterns.md) for reusable datum and release-basis rules.
+Read [measurement-patterns.md](references/measurement-patterns.md) for reusable datum and release-basis rules. Read [fusion-api-gotchas.md](references/fusion-api-gotchas.md) before writing an execute script: `run(context)`, units, one-component Part Design documents, known API quirks, and scripted interference checks.
